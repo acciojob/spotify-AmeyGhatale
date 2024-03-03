@@ -12,6 +12,9 @@ public class User {
         this.name = name;
         this.mobile = mobile;
     }
+    public User(String name) {
+        this.name = name;
+    }
 
     public String getName() {
         return name;

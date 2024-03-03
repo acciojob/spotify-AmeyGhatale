@@ -1,11 +1,14 @@
 package com.driver;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
 
-public class Album {
+public class Album extends Artist {
     private String title;
     private Date releaseDate;
+
 
     public Album(){
 
@@ -15,6 +18,7 @@ public class Album {
         this.title = title;
         this.releaseDate = new Date();
     }
+
 
     public String getTitle() {
         return title;

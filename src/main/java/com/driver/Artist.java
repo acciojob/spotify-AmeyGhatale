@@ -1,10 +1,13 @@
 package com.driver;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
-public class Artist {
+public class Artist extends User{
     private String name;
     private int likes;
+
 
     public Artist(){
 

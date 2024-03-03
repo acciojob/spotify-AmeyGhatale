@@ -1,6 +1,8 @@
 package com.driver;
 
-public class Song {
+import java.util.HashSet;
+
+public class Song extends Album{
     private String title;
     private int length;
     private int likes;
@@ -13,6 +15,7 @@ public class Song {
         this.title = title;
         this.length = length;
     }
+
 
     public String getTitle() {
         return title;
